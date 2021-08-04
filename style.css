@@ -1,0 +1,213 @@
+
+@media (min-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  body {
+background-color: #FFFFFF;
+font-weight: lighter;
+font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  background-color: #FD6C21;
+  padding: 2px 2px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+/* h2 {
+  font-weight: lighter;
+} */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: black;
+  line-height: 30px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  line-height: 30px;
+}
+span {
+  font-weight: 300;
+  color: #8E929A;
+  line-height: 30px;
+}
+#button {
+  background-color: #F5F5F7;
+  /* background-color: #FD6C21; */
+  padding: 13px 13px;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  opacity: 1;
+  height: 50px;
+}
+
+p {
+font-size: small;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  font-size: 30px;
+}
+li:hover {
+  opacity: 0.8;
+}
+#career {
+  color: #FD6C21;
+  font-size: 30px;
+}
+#hobbie {
+  color: #5632FB;
+  font-size: 30px;
+}
+#facebook {
+  color: #1877F3;
+}
+#linkedin {
+  color: #0967C2;
+}
+#github {
+  color: #24292E;
+}
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+.follow-card {
+  font-family: 'Montserrat', sans-serif;
+  height: 10px;
+}
+.image-card{
+  background-color: white;
+}
+.name-card{
+  background-color: white;
+}
+.socials-card{
+  background-color: white;
+}
+.card {
+  margin: 30px;
+  /* background-color: #FAFAFA; */
+  border-radius: 4px;
+}
+#sign-out{
+  color: #FB2757;
+}
+}
+@media (max-width: 960px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  body {
+background-color: black;
+font-weight: lighter;
+font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  background-color: #FD6C21;
+  padding: 2px 2px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+/* h2 {
+  font-weight: lighter;
+} */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: black;
+  line-height: 30px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  line-height: 30px;
+}
+span {
+  font-weight: 300;
+  color: #8E929A;
+  line-height: 30px;
+}
+#button {
+  background-color: #F5F5F7;
+  /* background-color: #FD6C21; */
+  padding: 13px 13px;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  opacity: 1;
+  height: 50px;
+}
+
+p {
+font-size: small;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  font-size: 30px;
+}
+li:hover {
+  opacity: 0.8;
+}
+#career {
+  color: #FD6C21;
+  font-size: 30px;
+}
+#hobbie {
+  color: #5632FB;
+  font-size: 30px;
+}
+#facebook {
+  color: #1877F3;
+}
+#linkedin {
+  color: #0967C2;
+}
+#github {
+  color: #24292E;
+}
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+.follow-card {
+  font-family: 'Montserrat', sans-serif;
+  height: 10px;
+}
+.image-card{
+  background-color: white;
+}
+.name-card{
+  background-color: white;
+}
+.socials-card{
+  background-color: white;
+}
+.card {
+  margin: 30px;
+  /* background-color: #FAFAFA; */
+  border-radius: 3px;
+}
+#sign-out{
+  color: #FB2757;
+}
+}
